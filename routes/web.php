@@ -27,7 +27,7 @@ Route::post('/question', 'PagesController@store')->name('question.store');
 
 Auth::routes();
 Route::get('mcgregor');
-
+Route::get("MU");
 Route::get("MayWether");
 
 Route::get("hard work yeaaaaah");
