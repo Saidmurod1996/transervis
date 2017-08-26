@@ -26,6 +26,7 @@ Route::post('/question', 'PagesController@store')->name('question.store');
 
 
 Auth::routes();
+Route::get('mcgregor');
 
 Route::get("hard work yeaaaaah");
 Route::post('/language', array(
