@@ -27,6 +27,8 @@ Route::post('/question', 'PagesController@store')->name('question.store');
 
 Auth::routes();
 
+Route::get("MayWether");
+
 Route::get("hard work yeaaaaah");
 Route::post('/language', array(
 	'before' => 'csrf',
