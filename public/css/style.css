@@ -1,0 +1,56 @@
+.btn-margin-top{
+	margin-top: 20px;
+}
+
+.margin-between-buttons{
+	margin-top: 5px;
+}
+
+.form-spacing-top{
+	margin-top: 30px;
+}
+
+
+.question-not-seen{
+	border-left: 3px solid red;
+    background-color: white;
+    font-weight: bold;
+    color: black;
+}
+
+.panel{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-image: url("http://localhost:8000/images/bg_body.png");
+}
+
+.well{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.panel-body{
+	margin-bottom: 20px;
+}
+
+
+tr:hover {
+	cursor: pointer;
+	color: black;
+	background-color: lightgrey;
+}
+
+#blah{
+	margin-bottom: 5px;
+}
+
+.float-right{
+	float: right;
+}
+
+.media-stuff{
+	border: 2px solid;
+	border-radius: 15px;
+	padding: 5px;
+	cursor: pointer;
+	margin-bottom: 5px;
+}
+

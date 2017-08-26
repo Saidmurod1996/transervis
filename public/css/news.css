@@ -1,0 +1,23 @@
+.thumb-contenido
+{
+    
+    margin-bottom:1%;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+#button-allnews
+{
+	background-color: #FAD7A0;
+	color: white;
+	border: 0px;
+	margin-bottom:10px;
+}
+#button-allnews:hover
+{
+	background-color: #FAD7A0;
+	color: white;
+	border: 0px;
+	margin-bottom:10px;
+	text-decoration: none;
+}

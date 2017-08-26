@@ -1,0 +1,220 @@
+#container-fluid-1
+{
+  height: 100px;
+}
+#container-fluid-2
+{
+  height: 45px;
+}
+#company-name
+{
+  width: 350px;
+  height: 90px;
+}
+#phone-number
+{
+  float: right;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#fa-facebook
+{
+  background: #3B5998;
+  color: white;
+  padding: 5px;
+  font-size: 21px;
+  width: 32px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+#fa-telegram
+{
+  background: #55ACEE;
+  color: white;
+  padding: 5px;
+  font-size: 21px;
+  width: 32px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+#fa-instagram
+{
+  background: pink;
+  color: white;
+  padding: 5px;
+  font-size: 21px;
+  width: 32px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.flag
+{
+  float: right;
+  margin-right: 2px;
+  margin-left: 20px;
+  width:30px;
+  height:20px;
+  margin-top: 6px;
+  margin-bottom: 5px;
+}
+
+#language-select
+{
+  float: right;
+  margin-top: 5px;
+}
+
+#pre-scrollable 
+{
+    max-height: 180px;
+    overflow-y: scroll;
+    border:1px solid lightgrey ;
+    margin-bottom: 20px;
+}
+
+
+/*carousel*/
+.carousel {padding-bottom: 25px}
+.carousel img{padding-top: 20px;}
+.carousel h2 {color: #0072b5;}
+.carousel h2 small{color: #289bde}
+.carousel col-lg-4 p {text-align: center;}
+
+#carousel-photos
+{
+  width: 600px;
+  height: 400px;
+  transition:transform 0.3s;
+}
+#carousel-photos:hover
+{
+  transform: scale(1.1);
+}
+
+
+
+
+
+.md_headtel span.tel 
+{
+    text-align: right;
+    padding-top: 8px;
+}
+.md_headtel span.tel {
+    display: block;
+    /* text-align: right; */
+    font-size: 40px;
+    line-height: 40px;
+    color: #000;
+    margin-bottom: 9px;
+}
+
+
+
+
+/*features*/
+.icon.major {
+      background: #272833;
+      border-radius: 100%;
+      cursor: default;
+      display: inline-block;
+      height: 6em;
+      line-height: 6em;
+      margin: 0 0 2em 0;
+      text-align: center;
+      width: 6em;
+    }
+      .icon.major:before {
+        font-size: 2.25em;
+      }
+
+      .icon.major.alt {
+        text-decoration: none;
+      }
+
+        .icon.major.alt:before {
+          -moz-osx-font-smoothing: grayscale;
+          -webkit-font-smoothing: antialiased;
+          font-family: FontAwesome;
+          font-style: normal;
+          font-weight: normal;
+          text-transform: none !important;
+        }
+
+        .icon.major.alt:before {
+          color: #272833 !important;
+          text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
+        }
+        
+
+
+/*news*/
+#news-image 
+{
+  width: 100%;
+  height: auto;
+}
+.single-blog-item {
+  border: 1px solid #dfdede;
+  box-shadow: 2px 5px 10px #dfdede;
+  margin: 15px auto;
+  padding: 5px;
+  position: relative;
+}
+.blog-content {
+  padding: 15px;
+}
+.blog-content h4 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.blog-content h4 a{
+  color:#777;
+  }
+.blog-content p{
+  color: #999;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.3333;
+}
+.blog-date
+{
+}
+.blog-date {
+    position: absolute;
+    background: #337ab7;
+    width: 75px;
+    height: 25px;
+    top: 20px;
+    left: 5px;
+    color: #fff;
+    border-radius: 0 15px 15px 0;
+    padding: 5px 5px;
+    font-weight: 100;
+    font-size: 10px;
+}
+.more-btn 
+{
+  background: #272833;
+  border-radius: 2px;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  margin: 30px auto auto auto;
+  text-align: center;
+  width: 110px;
+  color: #f1f1f1;
+  text-decoration: none;
+}
+.more-btn:hover
+{
+  color: #FAD7A0;
+  text-decoration: none;
+}

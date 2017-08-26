@@ -1,0 +1,52 @@
+.center 
+{
+    margin-top:50px;   
+}
+
+.modal-header 
+{
+	padding-bottom: 5px;
+	background-color: #272833;
+	color: white;
+}
+.modal-body
+{
+	background-color: #FAD7A0;
+}
+.modal-footer
+{
+	background-color: #272833;
+}
+
+.modal-footer 
+{
+    	padding: 0;
+}
+#close-send
+{
+	background-color:#FAD7A0;
+	border-color: white;
+}
+#close-send:hover
+{
+	background-color:grey;
+	border-color: black;
+}
+    
+.modal-footer .btn-group button 
+{
+	height:40px;
+	border-top-left-radius : 0;
+	border-top-right-radius : 0;
+	border: none;
+	border-right: 1px solid #ddd;
+}
+	
+.modal-footer .btn-group:last-child > button 
+{
+	border-right: 0;
+}
+#exampleTextarea
+{
+	resize: vertical;
+}
