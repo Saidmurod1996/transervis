@@ -24,7 +24,7 @@ Route::post('/question', 'PagesController@store')->name('question.store');
 
 
 
-
+Route::get("posts/slug");
 
 Auth::routes();
 Route::post('/language', array(
